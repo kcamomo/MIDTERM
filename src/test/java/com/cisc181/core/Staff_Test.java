@@ -47,14 +47,14 @@ public class Staff_Test {
 
 	@Test(expected = PersonException.class)
 	public void testPhoneNum() throws PersonException {
-		String lastName = new String();
-		String middleName = new String();
-		String firstName = new String();
+		String lastName = "";
+		String middleName = "";
+		String firstName = "";
 		Date DOB = new Date();
-		String address = new String();
+		String address = "";
 		String phoneNum = new String("30253251421");
-		String email = new String();
-		String officeHours = new String();
+		String email = "";
+		String officeHours = "";
 		int rank = 1;
 		double salary = 10.0;
 		Date hireDate = new Date();
@@ -66,14 +66,14 @@ public class Staff_Test {
 
 	@Test(expected = PersonException.class)
 	public void testDOB() throws PersonException {
-		String lastName = new String();
-		String middleName = new String();
-		String firstName = new String();
+		String lastName = "";
+		String middleName = "";
+		String firstName = "";
 		Date DOB = new Date(3 / 2 / 1774);
-		String address = new String();
-		String phoneNum = new String();
-		String email = new String();
-		String officeHours = new String();
+		String address = "";
+		String phoneNum = "";
+		String email = "";
+		String officeHours = "";
 		int rank = 1;
 		double salary = 10.0;
 		Date hireDate = new Date();
